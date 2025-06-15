@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*  # In case you have .env.development, .env.production etc.
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage and build output
+coverage/
+build/
+dist/
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Optional: test & debug junk
+*.tgz
+*.gz
+*.swp
